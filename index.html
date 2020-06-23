@@ -6,9 +6,7 @@
   </head>
   <body>
     <p>This is my page</p>
-    
-  </body>
-  <script>
+      <script>
   let promise = fetch('coffee.jpg');
     let promise2 = promise.then(response => {
   if (!response.ok) {
@@ -26,3 +24,6 @@ image.src = objectURL;
 document.body.appendChild(image);
   </script>
 </html>
+    
+  </body>
+
