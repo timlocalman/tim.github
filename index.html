@@ -10,7 +10,6 @@
   </body>
   <script>
   let promise = fetch('coffee.jpg');
-    response => response.blob()
     let promise2 = promise.then(response => {
   if (!response.ok) {
     throw new Error(`HTTP error! status: ${response.status}`);
